@@ -599,7 +599,7 @@ const Other = () => {
           </Link>
         )}
 
-        {feConfigs?.lafEnv && userInfo?.team.role === TeamMemberRoleEnum.owner && (
+        {/* {feConfigs?.lafEnv && userInfo?.team.role === TeamMemberRoleEnum.owner && (
           <Flex
             bg={'white'}
             py={3}
@@ -624,7 +624,7 @@ const Other = () => {
               bg={userInfo?.team.lafAccount?.token ? '#67c13b' : 'myGray.500'}
             />
           </Flex>
-        )}
+        )} */}
 
         {feConfigs?.show_openai_account && (
           <Flex
